@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    background:linear-gradient(blue,white);
+}
+
+h3{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+
+}
+#start{
+    background-color: black;
+    color:white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+#stop{
+    background-color: black;
+    color:white;
+    padding: 15px 32px;
+    border-radius: 20px;font-size: 15px;
+}
+
+#reset{
+    background-color: black;
+    color:white;
+    padding: 15px 32px;
+    border-radius: 20px;font-size: 15px;
+}

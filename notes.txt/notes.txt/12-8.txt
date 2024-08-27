@@ -1,0 +1,146 @@
+const data =[{
+    "name":"KEERTHI",
+    "status":"pass"
+},
+{
+    "name":"CHANDU",
+    "status":"pass"
+},
+{ 
+    "name":"ABCC",
+    "status":"fail"
+
+}]
+
+
+====================
+async
+-----
+
+javascript is a synchronous single threaded programming language
+synchronous-is there any error in line 4 it not goes to line 5
+* any function that takes time to run is asynchronous function//
+
+16-08
+-every asynchronous function will return promise
+-a promise is an object to describe an eventual(future) completion of an asynchronous operation
+- timers ae the basic asynchronous function.
+let a=20;
+setTimeout(function()
+{
+    consle.log("hai")
+},1)
+for (let i=0;i<1000;i++)
+{
+    console.log("hello world")
+}
+
+API- application programming interface
+
+-using someones data 
+-backend connected to database will create an api end point that consists data in xml/json format
+-java connect to database , html,css not connected to database
+https://api.quotable.io/random , in this url /random is endpoint and 
+//h/w:-https://official-joke-api.appspot.com/random_joke
+
+link:css  -> for linking style
+===================================================
+21-8
+1.set
+-add
+-delete
+-clear
+-has
+
+2.map-udes to store or manipulate unique key values
+-set is used to set key and values-get is used to get value based on akey
+-delete is used to delete the value
+
+3.date
+-date is used to store or get the curent date/time/any related data
+-new object created from date class can be used to get or set date related values
+4.regex
+-used to select/create/test regular expressions for a specific patterns
+-test()-used for testing certain regular expression matches or not
+-match()-used to retrieve first matched regular expressions
+
+22-08
+===================
+-your whole js engine is maintained by one object -- window
+-wndow maintains gobal execution content
+-window contains document,fetch,console,timers,location,geolocation,navigator,etc.
+-understading about browser object is known as Browser Object Model(BOM).
+
+/any geo location
+window.navigator.geolocation.getCurrentPosition((pos)=>console.log(pos.coords))
+
+/window locaton-- used to manipulate current url
+/window.navigator.mediaDevices.getUsermedia({video:true}).then(S=>)
+
+/memory storage
+-browsers can store the data
+1.local stoarge--it stores the data in the browser perminantly(perminant memory)
+2.session storage--it stores the data in browser but the moment browser closed, data will be erased(temporary memory)
+
+what is cache?
+-temporary memory for fast retrieval.
+what is session?
+-session is a duration used for autherization token.
+
+========
+Libraries
+-library is nothing but predefned code used for specific purpose.
+eg: reactjs is a library for UI purposes.
+framewok-framework is nothing but a complete package for a project
+eg: angular is a framework
+
+popular js libraries are
+-jquery
+-react
+-axios
+-GSAP
+-three js, etc..
+
+
+---libraries
+
+jquery-dom manipulation
+typedjs-typing effect
+aos(animate on screen)
+slickjs-gives sliders
+own carousel-sliding effect
+tns sliders-sliding effect
+swiper js-sliding effect
+anime js, GSAP , three js--
+google like cv
+terminal portfolio
+potfolio like reel,whsp chat
+
+js basics
+===========
+ntroduction
+diff blw let var const
+js engines,execution content,hoisting
+data types(prm ,non prm)
+prm - numbers,methods,math methods,strings,boolean,undfined,nul
+nonprm- functions,arrow function expression,call back,closure,arays,objects
+cntrl stsmts- if switch
+events, dom
+asyns-
+timers(setinterval,set timeout )
+fetch
+promises, promise chaining
+async await
+es6-template literals,arrow,rest vs spread, destructuring modules, classes, and object, inheritance
+advanced data types
+BOM
+libraries
+
+
+
+
+
+
+
+
+
